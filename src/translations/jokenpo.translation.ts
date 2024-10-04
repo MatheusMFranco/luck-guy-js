@@ -1,0 +1,43 @@
+import { Jokenpo } from '../entities/jokenpo.enum';
+
+export default {
+    [Jokenpo.ROCK]: {
+        en: 'Rock',
+        pt: 'Pedra',
+        es: 'Piedra',
+        fr: 'Pierre',
+        de: 'Stein',
+        it: 'Sasso',
+        ru: 'Камень',
+        zh: '石头',
+        ja: '岩',
+        ar: 'صخرة',
+        hi: 'पत्थर',
+    },
+    [Jokenpo.PAPER]: {
+        en: 'Paper',
+        pt: 'Papel',
+        es: 'Papel',
+        fr: 'Papier',
+        de: 'Papier',
+        it: 'Carta',
+        ru: 'Бумага',
+        zh: '纸',
+        ja: '紙',
+        ar: 'ورق',
+        hi: 'कागज',
+    },
+    [Jokenpo.SCISSOR]: {
+        en: 'Scissors',
+        pt: 'Tesoura',
+        es: 'Tijeras',
+        fr: 'Ciseaux',
+        de: 'Schere',
+        it: 'Forbici',
+        ru: 'Ножницы',
+        zh: '剪刀',
+        ja: 'はさみ',
+        ar: 'مقص',
+        hi: 'कैंची',
+    },
+};

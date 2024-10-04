@@ -1,0 +1,12 @@
+export type Language = 
+    | 'en'  // English
+    | 'pt'  // Portuguese
+    | 'es'  // Spanish
+    | 'fr'  // French
+    | 'de'  // German
+    | 'it'  // Italian
+    | 'ru'  // Russian
+    | 'zh'  // Chinese
+    | 'ja'  // Japanese
+    | 'ar'  // Arabic
+    | 'hi'; // Hindi
