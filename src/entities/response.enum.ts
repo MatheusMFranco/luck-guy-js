@@ -1,4 +1,4 @@
 export enum Response {
-    YES,
-    NO,
+  YES,
+  NO,
 }

@@ -5,7 +5,6 @@ import { Language } from '../entities/language.type';
 import coinTranslation from '../translations/coin.translation';
 
 export class FlipCoin extends FacePlay {
-
   translation = coinTranslation;
 
   constructor(language?: Language) {
@@ -15,5 +14,4 @@ export class FlipCoin extends FacePlay {
   public play(): string {
     return this.toSides(Coin);
   }
-
 }

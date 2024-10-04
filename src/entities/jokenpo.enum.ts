@@ -1,5 +1,5 @@
 export enum Jokenpo {
-    ROCK,
-    PAPER,
-    SCISSOR,
-};
+  ROCK,
+  PAPER,
+  SCISSOR,
+}
