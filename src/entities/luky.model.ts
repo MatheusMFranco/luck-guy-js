@@ -1,3 +1,3 @@
 export interface Lucky {
-    [key: string]: string | number;
+  [key: string]: string | number;
 }

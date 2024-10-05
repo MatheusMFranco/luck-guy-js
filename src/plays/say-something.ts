@@ -5,7 +5,6 @@ import { Language } from '../entities/language.type';
 import responseTranslation from '../translations/response.translation';
 
 export class SaySomething extends FacePlay {
-
   translation = responseTranslation;
 
   constructor(language?: Language) {
@@ -13,6 +12,6 @@ export class SaySomething extends FacePlay {
   }
 
   public play(): string {
-    return this.toSides(Response); 
+    return this.toSides(Response);
   }
 }
