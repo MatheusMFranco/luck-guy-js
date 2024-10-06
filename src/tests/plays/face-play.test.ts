@@ -1,5 +1,5 @@
-import { FacePlay } from '../../src/plays/face-play';
-import { FlipCoin } from '../../src/plays/flip-coin';
+import { FacePlay } from '../../plays/face-play';
+import { FlipCoin } from '../../plays/flip-coin';
 
 describe(FacePlay.name, () => {
   let playInstance: FacePlay;

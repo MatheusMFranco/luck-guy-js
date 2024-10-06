@@ -1,5 +1,5 @@
-import { Binary } from '../../src/plays/binary';
-import { Play } from '../../src/plays/play';
+import { Binary } from '../../plays/binary';
+import { Play } from '../../plays/play';
 
 describe(Play.name, () => {
   let playInstance: Play;
