@@ -18,10 +18,9 @@ describe(FacePlay.name, () => {
     expect(result === 'Cara' || result === 'Coroa').toBe(true);
   });
 
-  test('should return an string', () => { 
+  test('should return an string', () => {
     const result = playInstance.play();
 
     expect(typeof result === 'string').toBe(true);
   });
-
 });

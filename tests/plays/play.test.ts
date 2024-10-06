@@ -22,5 +22,4 @@ describe(Play.name, () => {
 
     expect(Number.isInteger(result)).toBe(true);
   });
-
 });

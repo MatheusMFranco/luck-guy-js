@@ -13,6 +13,6 @@ module.exports = {
     '\\.type\\.ts$',
     '\\.translation\\.ts$',
     '\\.model\\.ts$',
-    '\\.mock\\.ts$'
+    '\\.mock\\.ts$',
   ],
 };
