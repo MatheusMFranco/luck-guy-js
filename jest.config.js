@@ -8,4 +8,11 @@ module.exports = {
   testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coveragePathIgnorePatterns: [
+    '\\.enum\\.ts$',
+    '\\.type\\.ts$',
+    '\\.translation\\.ts$',
+    '\\.model\\.ts$',
+    '\\.mock\\.ts$'
+  ],
 };

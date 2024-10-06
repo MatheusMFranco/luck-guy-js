@@ -26,12 +26,13 @@ import { ShowLetter } from './plays/show-letter';
  * - 'ar' (Arabic)
  * - 'hi' (Hindi)
  */
-export class Facade {
+export class LuckyGuy {
   #language: Language;
 
   /**
-   * Constructs a new Facade instance with the specified language.
+   * Constructs a new LuckyGuy instance with the specified language.
    * @param language - The language to use for operations that depend on localization.
+   * @default 'en' (English)
    */
   constructor(language: Language) {
     this.#language = language;
@@ -64,6 +65,7 @@ export class Facade {
   /**
    * Rolls a dice with the specified number of sides. Default is 6 sides.
    * @param sides - The number of sides of the dice (default is 6).
+   * @default 6
    * @returns {number} - A number representing the outcome of the dice roll.
    */
   public dice(sides = 6): number {

@@ -16,7 +16,8 @@ export abstract class FacePlay extends Play {
 
   protected toSides(luckType: Lucky): string {
     const sides = Object.keys(luckType).filter((key) => isNaN(+key));
-    const selected = this.customLuck(sides);
-    return this.translation[selected][this.language];
+    const selected = this.customLuck(sides).toString();
+    const key = luckType[selected as keyof typeof luckType];
+    return this.translation[key][this.language];
   }
 }
