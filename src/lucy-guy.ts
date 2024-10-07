@@ -34,8 +34,8 @@ export class LuckyGuy {
    * @param language - The language to use for operations that depend on localization.
    * @default 'en' (English)
    */
-  constructor(language: Language) {
-    this.#language = language;
+  constructor(language?: Language) {
+    this.#language = language || 'en';
   }
 
   /**
