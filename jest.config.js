@@ -14,5 +14,6 @@ module.exports = {
     '\\.translation\\.ts$',
     '\\.model\\.ts$',
     '\\.mock\\.ts$',
+    '/dist/',
   ],
 };

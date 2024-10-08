@@ -9,5 +9,5 @@ module.exports = {
     library: 'super-lucky-guy',
     libraryTarget: 'umd',
     globalObject: 'this',
-  }
+  },
 };

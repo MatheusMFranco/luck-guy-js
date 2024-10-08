@@ -5,8 +5,6 @@
 [![Basic validation](https://github.com/actions/labeler/actions/workflows/basic-validation.yml/badge.svg?branch=main)](https://github.com/actions/labeler/actions/workflows/basic-validation.yml)
 [![npm version](https://badge.fury.io/js/super-lucky-guy.svg)](http://badge.fury.io/js/super-lucky-guy)
 
-
-
 Lucky Guy is a facade class providing a simplified interface for interacting with various "starter" games, such as rolling dice, flipping coins, binary outcomes, and custom lists. It supports multiple languages, making it flexible for different locales.
 
 </div>
