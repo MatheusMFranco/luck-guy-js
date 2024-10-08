@@ -1,9 +1,9 @@
 {
   "name": "super-lucky-guy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simplified interface for interacting with various 'starter' games.",
   "main": "dist/index.js",
-  "types": "@types/lucky-guy",
+  "types": "dist/@types/lucky-guy.d.ts",
   "scripts": {
     "prepare": "husky",
     "format": "prettier --write .",
