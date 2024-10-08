@@ -1,11 +1,10 @@
 const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
 const glob = require('glob');
 
 module.exports = {
   mode: 'production',
 
-  entry: glob.sync('./src/**/*.ts'),
+  entry: glob.sync('./src/**/*.ts', { ignore: ['./src/**/*.test.ts'] }),
 
   output: {
     filename: 'index.js',
@@ -17,7 +16,7 @@ module.exports = {
       {
         test: /\.ts$/,
         use: 'ts-loader',
-        exclude: /node_modules/,
+        exclude: /node_modules|\.test\.ts$/,
       },
     ],
   },
@@ -25,10 +24,5 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js'],
     preferRelative: true,
-  },
-
-  optimization: {
-    minimize: true,
-    minimizer: [new TerserPlugin()],
   },
 };

@@ -1,4 +1,4 @@
-export const ALPHABET = Symbol();
+export const ALPHABET = 'ALPHABET';
 
 export default {
   [ALPHABET]: {

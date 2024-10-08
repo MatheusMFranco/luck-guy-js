@@ -7,8 +7,15 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationDir": "./dist/@types",
+    "emitDeclarationOnly": false,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*", "@types/*"]
+    }
   },
-  "include": ["src/**/*", "src/tests/**/*"],
+  "include": ["src/**/*", "src/tests/**/*", "@types/**/*"],
   "exclude": ["node_modules", "dist"]
 }
