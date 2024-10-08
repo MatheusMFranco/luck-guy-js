@@ -1,5 +1,4 @@
 import { Binary } from '../plays/binary';
-import { LuckyGuy } from '../';
 import { RollDice } from '../plays/roll-dice';
 import { FlipCoin } from '../plays/flip-coin';
 import { SaySomething } from '../plays/say-something';
@@ -7,6 +6,7 @@ import { ShakeHand } from '../plays/shake-hand';
 import { ShowLetter } from '../plays/show-letter';
 import { OneTwoGo } from '../plays/one-two-go';
 import { Custom } from '../plays/custom';
+import { LuckyGuy } from '../lucky-guy';
 
 describe(LuckyGuy.name, () => {
   let luckyGuy: LuckyGuy;

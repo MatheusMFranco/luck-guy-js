@@ -1,8 +1,9 @@
 <div align="center">
 
-# Lucky Guy
+# Super Lucky Guy!
 
 [![Basic validation](https://github.com/actions/labeler/actions/workflows/basic-validation.yml/badge.svg?branch=main)](https://github.com/actions/labeler/actions/workflows/basic-validation.yml)
+[![npm version](https://badge.fury.io/js/super-lucky-guy.svg)](http://badge.fury.io/js/super-lucky-guy)
 
 Lucky Guy is a facade class providing a simplified interface for interacting with various "starter" games, such as rolling dice, flipping coins, binary outcomes, and custom lists. It supports multiple languages, making it flexible for different locales.
 
@@ -40,11 +41,11 @@ The app supports multiple languages:
 To use the LuckyGuy class in your project:
 
 ```bash
-npm install lucky-guy
+npm i super-lucky-guy
 ```
 
 ```ts
-import { LuckyGuy } from 'lucky-guy';
+import { LuckyGuy } from 'super-lucky-guy';
 
 const lucky = new LuckyGuy(); //'en' - English is default
 ```
