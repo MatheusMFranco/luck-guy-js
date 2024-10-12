@@ -17,12 +17,12 @@
     "games",
     "jokenpo",
     "adedonha",
-    "adedanha",
     "stop",
     "odds-and-evens",
     "dice",
     "rpg",
-    "random"
+    "random",
+    "typescript"
   ],
   "author": "Matheus Franco",
   "license": "ISC",
