@@ -13,7 +13,14 @@ export class ShowLetter extends FacePlay {
   }
 
   public play(): string {
-    const letters = this.translation[ALPHABET][this.language];
-    return this.customLuck(letters.split(''));
+    return this.customLuck(this.letters.split(this.separator));
+  }
+
+  get separator(): string {
+    return '';
+  }
+
+  get letters(): string {
+    return this.translation[ALPHABET][this.language];
   }
 }
