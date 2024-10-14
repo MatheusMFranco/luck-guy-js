@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.2.0](https://github.com/MatheusMFranco/luck-guy-js/compare/v1.1.0...v1.2.0) (2024-10-14)
+### [1.2.1](https://github.com/MatheusMFranco/luck-guy-js/compare/v1.2.0...v1.2.1) (2024-10-14)
 
+## [1.2.0](https://github.com/MatheusMFranco/luck-guy-js/compare/v1.1.0...v1.2.0) (2024-10-14)
 
 ### Features
 
-* add mutation tests ([76393d8](https://github.com/MatheusMFranco/luck-guy-js/commit/76393d87a99249032f9f50efe9e7bc6556f8ff39))
+- add mutation tests ([76393d8](https://github.com/MatheusMFranco/luck-guy-js/commit/76393d87a99249032f9f50efe9e7bc6556f8ff39))
 
 ## [1.1.0](https://github.com/MatheusMFranco/luck-guy-js/compare/v1.0.0...v1.1.0) (2024-10-12)
 

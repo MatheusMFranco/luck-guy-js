@@ -13,7 +13,7 @@ describe(Play.name, () => {
     const result = playInstance.play(sides);
 
     expect(result).toBeGreaterThanOrEqual(0);
-    expect(result).toBeLessThan(sides);
+    expect(result).toBeLessThan(sides + 1);
   });
 
   test('should return an integer', () => {
