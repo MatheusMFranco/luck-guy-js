@@ -1,6 +1,6 @@
 {
   "name": "super-lucky-guy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simplified interface for interacting with various 'starter' games.",
   "main": "dist/index.js",
   "types": "dist/@types/lucky-guy.d.ts",
