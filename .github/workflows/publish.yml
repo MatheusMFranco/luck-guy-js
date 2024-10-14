@@ -35,7 +35,7 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      
+
       - name: Create Tag
         run: |
           VERSION=$(node -p "require('./package.json').version")
